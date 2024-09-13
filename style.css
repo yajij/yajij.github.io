@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    background: #23344e;
+    color: #ffffff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-content {
+    text-align: center;
+}
+
+.landing-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.landing-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project1 {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project1:hover {
+    background: #027184;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.project1 {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.project1 h3 {
+    margin: 0 0 10px;
+}
+
+.project1 p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effects */
+section:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.02);    
+    box-shadow: 0 4px 8px rgba(145, 111, 111, 0.2); 
+}
+
+.about {
+    background-color: #988175; 
+}
+
+.projects {
+    background-color: #988175; 
+}
+
+.skills {
+    background-color: #988175;
+}
